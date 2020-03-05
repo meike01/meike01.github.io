@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>test_my_site | Hexo</title>
+  <title>test_my_site | &lt;i&gt;Prince_bah__&lt;/i&gt;</title>
 
   
   <meta name="author" content="John Doe">
@@ -22,14 +22,14 @@
 
   <meta property="og:title" content="test_my_site"/>
 
-  <meta property="og:site_name" content="Hexo"/>
+  <meta property="og:site_name" content="&lt;i&gt;Prince_bah__&lt;/i&gt;"/>
 
   
   <meta property="og:image" content="/meike01.github.io/favicon.ico"/>
   
 
   <link href="/meike01.github.io/favicon.ico" rel="icon">
-  <link rel="alternate" href="/meike01.github.io/atom.xml" title="Hexo" type="application/atom+xml">
+  <link rel="alternate" href="/meike01.github.io/atom.xml" title="&lt;i&gt;Prince_bah__&lt;/i&gt;" type="application/atom+xml">
   <link rel="stylesheet" href="/meike01.github.io/css/style.css" media="screen" type="text/css">
 <meta name="generator" content="Hexo 4.2.0"></head>
 
@@ -41,16 +41,20 @@
     <header>
   <div class="site-branding">
     <h1 class="site-title">
-      <a href="/meike01.github.io/">Hexo</a>
+      <a href="/meike01.github.io/">&lt;i&gt;Prince_bah__&lt;/i&gt;</a>
     </h1>
     <p class="site-description"></p>
   </div>
   <nav class="site-navigation">
     <ul>
       
-        <li><a href="/meike01.github.io/">Home</a></li>
+        <li><a href="/meike01.github.io/">主页</a></li>
       
-        <li><a href="/meike01.github.io/archives">Archives</a></li>
+        <li><a href="/meike01.github.io/archives">归档</a></li>
+      
+        <li><a href="/meike01.github.io/categories">分类</a></li>
+      
+        <li><a href="/meike01.github.io/tags">标签</a></li>
       
     </ul>
   </nav>
@@ -103,30 +107,23 @@
   
 
 
-
 	<section id="comment" class="comment">
-	  <div id="disqus_thread">
-	  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
-	  </div>
+		<div id="gitment"></div>
 	</section>
-
-	<script type="text/javascript">
-	var disqus_shortname = '';
-	(function(){
-	  var dsq = document.createElement('script');
-	  dsq.type = 'text/javascript';
-	  dsq.async = true;
-	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	}());
-	(function(){
-	  var dsq = document.createElement('script');
-	  dsq.type = 'text/javascript';
-	  dsq.async = true;
-	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	}());
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+		var gitment = new Gitment({
+			owner: '',
+			repo: '',
+			oauth: {
+				client_id: '',
+				client_secret: '',
+			},
+		})
+		gitment.render('gitment')
 	</script>
+
 
 
 
