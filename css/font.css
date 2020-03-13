@@ -24,8 +24,86 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'mgx';
+  font-family: 'mg';
+  src: url("../fonts/MGentleHKLight.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'mg';
   src: url("../fonts/mgentlehks.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: 350;
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: normal;
+  src: url("../fonts/avenir/Avenir Next_10.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: lighter;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: italic;
+  src: url("../fonts/avenir/Avenir Next_11.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: lighter;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: normal;
+  src: url("../fonts/avenir/Avenir Next_07.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: italic;
+  src: url("../fonts/avenir/Avenir Next_04.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: normal;
+  src: url("../fonts/avenir/Avenir Next_02.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: italic;
+  src: url("../fonts/avenir/Avenir Next_03.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: normal;
+  src: url("../fonts/CrimsonText/CrimsonText-Regular-5.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-size: 150%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: italic;
+  src: url("../fonts/CrimsonText/CrimsonText-Regular-4.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-size: 150%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: normal;
+  src: url("../fonts/CrimsonText/CrimsonText-Bold-2.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: italic;
+  src: url("../fonts/CrimsonText/CrimsonText-Bold-3.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
   font-display: swap;
 }
