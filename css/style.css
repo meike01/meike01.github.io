@@ -252,7 +252,7 @@ template {
   font-display: swap;
 }
 html {
-  font-family: 'avenir', Seguo UI;
+  font-family: 'avenir', Lantinghei SC, 'lanting', Seguo UI;
 }
 html::-webkit-scrollbar {
   width: 8px;
