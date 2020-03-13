@@ -146,11 +146,113 @@ template {
   font-family: 'lanting';
   src: url("../fonts/lanting/lanting.eot"); /* IE9 */
   src: url("../fonts/lanting/lanting.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */ url("../fonts/lanting/lanting.woff2") format('woff2'), url("../fonts/lanting/lanting.woff") format('woff'), url("../fonts/lanting/lanting.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: 350;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Avenirr';
+  src: url("../fonts/avenir.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: 350;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ios8';
+  src: url("../fonts/IOS8.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: 350;
+  font-display: swap;
+}
+@font-face {
+  font-family: 're';
+  src: url("../fonts/font21240.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: 350;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'mg';
+  src: url("../fonts/MGentleHKLight.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
   font-weight: 300;
   font-display: swap;
 }
+@font-face {
+  font-family: 'mg';
+  src: url("../fonts/mgentlehks.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: normal;
+  src: url("../fonts/avenir/Avenir Next_10.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: lighter;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: italic;
+  src: url("../fonts/avenir/Avenir Next_11.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: lighter;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: normal;
+  src: url("../fonts/avenir/Avenir Next_07.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: italic;
+  src: url("../fonts/avenir/Avenir Next_04.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: normal;
+  src: url("../fonts/avenir/Avenir Next_02.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'avenir';
+  font-style: italic;
+  src: url("../fonts/avenir/Avenir Next_03.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: normal;
+  src: url("../fonts/CrimsonText/CrimsonText-Regular-5.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-size: 150%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: italic;
+  src: url("../fonts/CrimsonText/CrimsonText-Regular-4.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: normal;
+  font-size: 150%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: normal;
+  src: url("../fonts/CrimsonText/CrimsonText-Bold-2.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ct';
+  font-style: italic;
+  src: url("../fonts/CrimsonText/CrimsonText-Bold-3.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  font-weight: bold;
+  font-display: swap;
+}
 html {
-  font-family: 'Microsoft Jhenghei', Lantinghei SC, 'lanting', PingFang SC, Seguo UI, Microsoft Yahei, Arial;
+  font-family: 'avenir', Lantinghei SC, Seguo UI;
 }
 html::-webkit-scrollbar {
   width: 8px;
