@@ -580,7 +580,7 @@ input[type="radio"]:not(:checked) + label:after {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-tumblr:before {
+.icon-tumblr1:before {
   content: "\e74b";
 }
 
@@ -592,7 +592,7 @@ input[type="radio"]:not(:checked) + label:after {
   content: "\e61f";
 }
 
-.icon-tumblr1:before {
+.icon-tumblr:before {
   content: "\e83f";
 }
 
