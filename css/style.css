@@ -146,113 +146,11 @@ template {
   font-family: 'lanting';
   src: url("../fonts/lanting/lanting.eot"); /* IE9 */
   src: url("../fonts/lanting/lanting.eot?#iefix") format('embedded-opentype'), /* IE6-IE8 */ url("../fonts/lanting/lanting.woff2") format('woff2'), url("../fonts/lanting/lanting.woff") format('woff'), url("../fonts/lanting/lanting.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: 350;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Avenirr';
-  src: url("../fonts/avenir.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: 350;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ios8';
-  src: url("../fonts/IOS8.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: 350;
-  font-display: swap;
-}
-@font-face {
-  font-family: 're';
-  src: url("../fonts/font21240.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: 350;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'mg';
-  src: url("../fonts/MGentleHKLight.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
   font-weight: 300;
   font-display: swap;
 }
-@font-face {
-  font-family: 'mg';
-  src: url("../fonts/mgentlehks.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: bold;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'avenir';
-  font-style: normal;
-  src: url("../fonts/avenir/Avenir Next_10.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: lighter;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'avenir';
-  font-style: italic;
-  src: url("../fonts/avenir/Avenir Next_11.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: lighter;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'avenir';
-  font-style: normal;
-  src: url("../fonts/avenir/Avenir Next_07.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'avenir';
-  font-style: italic;
-  src: url("../fonts/avenir/Avenir Next_04.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'avenir';
-  font-style: normal;
-  src: url("../fonts/avenir/Avenir Next_02.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: bold;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'avenir';
-  font-style: italic;
-  src: url("../fonts/avenir/Avenir Next_03.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: bold;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ct';
-  font-style: normal;
-  src: url("../fonts/CrimsonText/CrimsonText-Regular-5.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: normal;
-  font-size: 150%;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ct';
-  font-style: italic;
-  src: url("../fonts/CrimsonText/CrimsonText-Regular-4.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: normal;
-  font-size: 150%;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ct';
-  font-style: normal;
-  src: url("../fonts/CrimsonText/CrimsonText-Bold-2.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: bold;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ct';
-  font-style: italic;
-  src: url("../fonts/CrimsonText/CrimsonText-Bold-3.ttf") format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  font-weight: bold;
-  font-display: swap;
-}
 html {
-  font-family: 'avenir', Lantinghei SC, 'lanting', Seguo UI;
+  font-family: 'Microsoft Jhenghei', Lantinghei SC, 'lanting', PingFang SC, Seguo UI, Microsoft Yahei, Arial;
 }
 html::-webkit-scrollbar {
   width: 8px;
@@ -560,40 +458,6 @@ input[type="radio"]:not(:checked) + label:after {
 
 .icon-github:before {
   content: "\e88d";
-}
-
-
-@font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1583940400900'); /* IE9 */
-  src: url('iconfont.eot?t=1583940400900#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPYAAsAAAAACAgAAAOKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDHIJ4ATYCJAMUCwwABCAFhG0HUxsPB8ieB3Zjh4OVG4KKZPwtEDBnyrHTdckR0hC5Q4AXIvaH/eURSXj5oAgOTKzH96H3hdKWbqWvtNUVQEBA+vCX06b4fPYtt7UmdeeNCRgFHOge2AYp0AIpIG4Yu4nyIA5DAAZBEojSZV8/QikUYJQAROcO7DGUSllRNXSBFYGlZKFCTEPHqo3XzgJT+efFG9JaQUOXgInV295dQpvn8mUxabPbaEwZyMZzA9oykEACUCB6lno7Ew2zCSSG87sYxQlhYEVDey6fB7+o9LKY3Y6r3JHegF7QRvnjKRAWANUBgOJiTsFziQk0eB5MIOFFJQIBL4vJXwxVB8AIi0YAawH6AH59gUBD+Ic5BAZ0+7xeLX39ej1piBs3wueaJiaGtuhQmbV7u02IW7NECFMY8CaLlm3aFLGvNFnNtv3SNXPi3ui9lcTZFjde1Lv+vO7Vp7WvPRtEp+nY5nuuNifms++oMeH6/i3C7L/3ws7wbr8Zq9ZsWOIvB0rP4urV2tqzXr1W58QN/6fjEsY+aRpa40eOXinqZDcPuG6Va76XPvHz/v0xLpXU8TqGtw3flv+ywumDtoMPB6fcr9CrkOjcp3ktd9B/3YBc31W115cfdQv7sFsqJETdguaQEKKMX9BpZ+qSWS1nLcve/KuSX8r7VsPtUfElSjcC4u+Uqf+y+Fedv2GOKeLPOBdjo23jncHVE6pKA/+x2fWzQuW+3+MldYIO0Z4QYD8l3aWN8x9IIUPy17RvMv5Xfodfl3+VaVYs+GY1FQC3p0akiBG7TdFP+j90tJb9OFnLJuUqgE1XdimW2n6d2BG0mtNlAL8r6Ob+OHrP1lQQWPGMoVGIQEisRDAVNwE6JhmwYKUYDOKVW27iridRhCoMxBktQOBiKzScOACJi3NMxb0HHS/vYMGlhEFd4b6hSdQORqmeeDTxAi096HAmhUEOMxPQ35C1pKOeVHDeF+oGn4DUpJRs4QEV1MeY0stmp71NBtrqJENZ4TiUJILuOgl4NoftTVOdJSe3LXvQsBXJoQyl0EGOmCAXQEs8QAfOEAoM7WySyb3/DYTFQuKIXlPWEf8C0THgewepkqS0YD5olVZl13JKL2xYpnpjwgDaokPIgLJCP0RCggDdy/sJIGdMhtr3SKvMJMN2bdtqh/Pr5Qco0aoAh+tCE1IooQsLlt595JOkZzt3Y2kQ61LMt79PBp4JAAAA') format('woff2'),
-  url('iconfont.woff?t=1583940400900') format('woff'),
-  url('iconfont.ttf?t=1583940400900') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  url('iconfont.svg?t=1583940400900#iconfont') format('svg'); /* iOS 4.1- */
-}
-
-.iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-tumblr1:before {
-  content: "\e74b";
-}
-
-.icon-tumblr2:before {
-  content: "\e603";
-}
-
-.icon-tumblr3:before {
-  content: "\e61f";
-}
-
-.icon-tumblr:before {
-  content: "\e83f";
 }
 
 
